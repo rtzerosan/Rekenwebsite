@@ -1,0 +1,65 @@
+body
+{
+	padding: 0px;
+	Background-color: #A15C02;
+	margin: 0px;
+	color: #191919;
+	font-family: open sans;
+}
+a:link, a:visited
+{
+	text-decoration: none;
+	color: #191919
+}
+.button 
+{
+	margin-left: 15%;
+	margin-top: 20px;
+
+}
+.menuitem
+{
+	display: inline-block;
+}
+.menutarget{
+	position: absolute;
+	background-color: green;
+	width: 300px;
+	height: 2px;
+
+}
+#header
+{
+	background-color: #857E75;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	z-index: 500;
+}#header img
+{
+	height: 67px;
+	width: 87px;
+	position: absolute;
+}
+#inhoud
+{
+margin-left: 25%;
+min-height: 65%;
+width: 50%;
+background-color: gainsboro;
+padding-top: 15%;
+text-align: center;
+}
+#keuzekiezen{
+padding-top: 10px;
+height: 80px;
+width: 300px;
+background-color:#E68A12;
+font-size: 40px;
+text-align: center;
+margin-left: 25%;
+}
+table
+{
+margin-left: 25px;
+}
