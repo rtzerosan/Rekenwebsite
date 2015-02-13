@@ -29,7 +29,7 @@ if($teller<=20)
 	$_SESSION['teller']=$teller;
 	$_SESSION['getal1']=rand(1,20);
 	$_SESSION['getal2']=rand(1,20);
-	$_SESSION['efficient']=rand(1,4);
+	$_SESSION['efficient']=1;
 	$_SESSION['punt']=$punt;
 	
 	$getal1 = $_SESSION['getal1'];
@@ -37,45 +37,13 @@ if($teller<=20)
 	$efficient = $_SESSION['efficient'];
 	$vraagnummer=count($_SESSION['results'])+1;
 	
-	echo "<form action='toetsnakijken.php' method='post'>";
+	echo "<form action='Optellen5nakijken.php' method='post'>";
 	echo "Vraag nummer $vraagnummer <br />";
 	echo" <br />";
-	if($efficient == 1){
+
 		$antwoord=$getal1+$getal2;
 		echo"$getal1 + $getal2 = <input type='text' name='answer' autocomplete='off' /><br /> ";
-
-		}
-	elseif($efficient == 2){
-		if($getal2>$getal1)
-		{
-		$getal3=$getal1;
-		$getal1=$getal2;
-		$getal2=$getal3;
-		}
-			$antwoord=$getal1-$getal2;
-			echo"$getal1 - $getal2 =  <input type='text' name='answer' autocomplete='off' /><br />";
-		
-		
-	}
-
-	elseif($efficient == 3){
-		$antwoord=$getal1*$getal2;
-		echo"$getal1 * $getal2 =  <input type='text' name='answer' autocomplete='off' /><br />";
-	}
-
-	else{
-		$getal3=$getal1*$getal2;
-		
-		$getal4=$getal1;
-		$getal1=$getal3;
-		$getal3=$getal4; 
-		
-		$antwoord=$getal3;
-		echo"$getal1 / $getal2 = <input type='text' name='answer' autocomplete='off' /><br />";
-	}
-	
-	
-	$_SESSION['antwoord']=$antwoord;
+$_SESSION['antwoord']=$antwoord;
 			echo" <br />";
 	echo "	<input type='submit' name='volgende' value='klik voor volgende vraag' />";
 	echo "<input type='hidden' name='getal1' value='$getal1' />
@@ -125,3 +93,4 @@ session_destroy();
 }
 
 ?>
+	

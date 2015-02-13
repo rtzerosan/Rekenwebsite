@@ -53,13 +53,14 @@ text-align: center;
 #keuzekiezen{
 padding-top: 10px;
 height: 80px;
-width: 300px;
+min-width: 300px;
 background-color:#E68A12;
 font-size: 40px;
+max-width: 400px;
 text-align: center;
-margin-left: 25%;
+margin-left: 22%;
 }
 table
 {
-margin-left: 25px;
+margin-left: 15%;
 }

@@ -37,9 +37,9 @@
                     If($keuze==2) { require("groep4.php"); }
 					If($keuze==3) { require("groep5.php"); }
 					If($keuze==4) { require("groep6.php"); }
-					If($keuze==5) { require("toets.php"); }
-					If($keuze==6) { require("uitleg1.php"); }
-					If($keuze==7) { require("uitleg2.php"); }
+					If($keuze==5) { require("toets5.php"); }
+					If($keuze==6) { require("oefeningen5.php"); }
+					If($keuze==7) { require("optellen5.php"); }
 					If($keuze==8) { require("uitleg3.php"); }
 					If($keuze==9) { require("uitleg4.php"); }
 					If($keuze==10) { require("toets.php"); }	
