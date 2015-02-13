@@ -35,7 +35,7 @@ elseif ($efficient==4)
 
 	{$soort='/';}
 else
-	{$soort=wortel}
+	{$soort="wortel";}
 $_SESSION['punt']=$punt;
 	
 array_push($results, array($getal1, $soort, $getal2, '=', $answer, $antwoord, $controle));
