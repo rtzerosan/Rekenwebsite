@@ -31,7 +31,7 @@ elseif ($efficient==3)
 
 	{$soort='*';}
 	
-else
+else 
 
 	{$soort='/';}
 $_SESSION['punt']=$punt;
@@ -40,6 +40,6 @@ array_push($results, array($getal1, $soort, $getal2, '=', $answer, $antwoord, $c
 
 $_SESSION['results']=$results;
 echo $getal1;
-header("location:home.php?pagina=7");
+header("location:home.php?pagina=5");
 
 ?>
