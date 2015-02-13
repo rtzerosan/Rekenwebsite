@@ -40,9 +40,19 @@
 					If($keuze==5) { require("toets5.php"); }
 					If($keuze==6) { require("oefeningen5.php"); }
 					If($keuze==7) { require("optellen5.php"); }
-					If($keuze==8) { require("uitleg3.php"); }
-					If($keuze==9) { require("uitleg4.php"); }
-					If($keuze==10) { require("toets.php"); }	
+					If($keuze==8) { require("aftellen5.php"); }
+					If($keuze==9) { require("keer5.php"); }
+					If($keuze==10) { require("delen5.php"); }
+					If($keuze==11) { require("toets6.php"); }
+					If($keuze==12) { require("optellen6.php"); }
+					If($keuze==13) { require("aftellen6.php"); }
+					If($keuze==14) { require("keer6.php"); }
+					If($keuze==15) { require("delen6.php"); }
+					If($keuze==16) { require("wortel6.php"); }
+					If($keuze==17) { require("toets4.php"); }
+					If($keuze==18) { require("optellen4.php"); }
+					If($keuze==13) { require("aftellen4.php"); }
+					If($keuze==14) { require("keer4.php"); }
 			?>
 		</div>
 </body>
